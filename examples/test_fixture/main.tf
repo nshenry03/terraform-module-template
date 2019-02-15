@@ -9,7 +9,7 @@ module "this" {
   source = "../.."
 
   tags = {
-    Owner       = "developer-integration-test"
+    Owner       = "${var.user}"
     Environment = "dev"
   }
 }
